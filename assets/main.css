@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;1,600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  color: #9fabb2;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-image: url(/assets/images/bg-header-desktop.png);
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+header .wrapper {
+  width: min(75rem, 90%);
+}
+header .wrapper .links-div {
+  padding-top: 70px;
+  text-align: center;
+}
+header .wrapper .links-div img {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+header .wrapper .links-div h3 {
+  font-size: 40px;
+  font-weight: 600;
+  color: hsl(210deg, 10%, 33%);
+  margin-bottom: 20px;
+}
+header .wrapper .links-div p {
+  font-size: 18px;
+  font-weight: 400;
+  color: hsl(201deg, 11%, 66%);
+  width: min(90%, 35rem);
+  margin: auto;
+}
+header .wrapper .links-div .-links {
+  padding-top: 40px;
+}
+header .wrapper .links-div .-links ul {
+  display: flex;
+  justify-content: center;
+}
+header .wrapper .links-div .-links ul li {
+  margin-right: 20px;
+}
+header .wrapper .links-div .-links ul li a {
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 25px;
+}
+header .wrapper .links-div .-links ul li .ios {
+  background-color: hsl(171deg, 66%, 44%);
+  border-bottom: 3px solid #156659;
+  box-shadow: 0px 2px 5px 1px rgba(38, 186, 164, 0.3);
+  transition: 0.2s;
+}
+header .wrapper .links-div .-links ul li .ios:hover {
+  background-color: hsl(171deg, 66%, 54%);
+}
+header .wrapper .links-div .-links ul li .mac {
+  background-color: hsl(233deg, 100%, 69%);
+  border-bottom: 3px solid #001194;
+  box-shadow: 0px 2px 5px 1px rgba(97, 115, 255, 0.3);
+  transition: 0.2s;
+}
+header .wrapper .links-div .-links ul li .mac:hover {
+  background-color: hsl(233deg, 100%, 79%);
+}
+
+main {
+  padding-block: 6rem;
+}
+main .tracks {
+  text-align: center;
+  padding: 80px;
+}
+main .tracks h3 {
+  font-size: 35px;
+  font-weight: 600;
+  color: hsl(210deg, 10%, 33%);
+  margin-bottom: 20px;
+}
+main .tracks p {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(201deg, 11%, 66%);
+  width: min(90%, 40rem);
+  margin: auto;
+}
+main .tracks .mockup {
+  display: flex;
+  margin-top: 60px;
+}
+main .tracks .mockup img {
+  margin-left: -50px;
+  width: 100%;
+  height: auto;
+}
+main .tracks .mockup ul {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+main .tracks .mockup ul li {
+  padding: 20px;
+}
+main .tracks .mockup ul li h4 {
+  font-size: 25px;
+  color: hsl(210deg, 10%, 33%);
+  margin-bottom: 15px;
+}
+main .tracks .mockup ul li p {
+  width: 100% !important;
+}
+main .access {
+  width: min(75rem, 90%);
+  margin: auto;
+  text-align: center;
+  margin-top: 60px;
+}
+main .access h3 {
+  font-size: 35px;
+  font-weight: 600;
+  color: hsl(210deg, 10%, 33%);
+  margin-bottom: 20px;
+}
+main .access p {
+  font-size: 14px;
+  font-weight: 400;
+  color: hsl(201deg, 11%, 66%);
+}
+main .access img {
+  margin-top: 20px;
+}
+main .supercharge {
+  width: min(75rem, 90%);
+  margin: auto;
+  text-align: center;
+  margin-top: 60px;
+}
+main .supercharge h3 {
+  font-size: 35px;
+  font-weight: 600;
+  color: hsl(210deg, 10%, 33%);
+  margin-bottom: 20px;
+}
+main .supercharge p {
+  font-size: 14px;
+  font-weight: 400;
+  color: hsl(201deg, 11%, 66%);
+}
+main .supercharge .description {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+main .supercharge .description ul {
+  display: flex;
+  text-align: center;
+}
+main .supercharge .description ul li {
+  padding: 20px;
+}
+main .supercharge .description ul li img {
+  margin-bottom: 20px;
+}
+main .supercharge .description ul li h4 {
+  font-size: 20px;
+  color: hsl(210deg, 10%, 33%);
+  margin-bottom: 15px;
+}
+main .supercharge .description ul li p {
+  font-size: 16px;
+  line-height: 20px;
+}
+main .companys-logo {
+  margin-top: 60px;
+  display: table;
+  width: initial;
+  margin: auto;
+}
+main .companys-logo ul {
+  display: flex;
+}
+main .companys-logo ul li {
+  padding: 40px;
+}
+main .links-div {
+  padding-top: 70px;
+  text-align: center;
+}
+main .links-div img {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+main .links-div h3 {
+  font-size: 40px;
+  font-weight: 600;
+  color: hsl(210deg, 10%, 33%);
+  margin-bottom: 20px;
+}
+main .links-div p {
+  font-size: 18px;
+  font-weight: 400;
+  color: hsl(201deg, 11%, 66%);
+  width: min(90%, 35rem);
+  margin: auto;
+}
+main .links-div .-links {
+  padding-top: 40px;
+}
+main .links-div .-links ul {
+  display: flex;
+  justify-content: center;
+}
+main .links-div .-links ul li {
+  margin-right: 20px;
+}
+main .links-div .-links ul li a {
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 25px;
+}
+main .links-div .-links ul li .ios {
+  background-color: hsl(171deg, 66%, 44%);
+  border-bottom: 3px solid #156659;
+  box-shadow: 0px 2px 5px 1px rgba(38, 186, 164, 0.3);
+  transition: 0.2s;
+}
+main .links-div .-links ul li .ios:hover {
+  background-color: hsl(171deg, 66%, 54%);
+}
+main .links-div .-links ul li .mac {
+  background-color: hsl(233deg, 100%, 69%);
+  border-bottom: 3px solid #001194;
+  box-shadow: 0px 2px 5px 1px rgba(97, 115, 255, 0.3);
+  transition: 0.2s;
+}
+main .links-div .-links ul li .mac:hover {
+  background-color: hsl(233deg, 100%, 79%);
+}
+
+footer {
+  background-color: #f6f6fe;
+  padding: 3rem;
+}
+footer .wrapper {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+}
+footer .wrapper .footer-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+}
+footer .wrapper .footer-links div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+footer .wrapper .footer-links div a {
+  color: hsl(201deg, 11%, 66%);
+}
+footer .wrapper .footer-links div a:hover {
+  color: hsl(171deg, 66%, 44%);
+}
+footer .wrapper .socials {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .wrapper .socials a {
+  color: hsl(201deg, 11%, 66%);
+}
+footer .wrapper .socials a:hover {
+  color: hsl(171deg, 66%, 44%) !important;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    background-image: url(/assets/images/bg-header-mobile.png);
+  }
+  .tracks {
+    padding: 30px !important;
+  }
+  .tracks .mockup {
+    display: block !important;
+  }
+  .tracks .mockup img {
+    margin-left: 0px !important;
+  }
+  .tracks .mockup ul {
+    text-align: center !important;
+  }
+  .access img {
+    width: 100%;
+    height: auto;
+  }
+  .description ul {
+    display: block !important;
+  }
+  .companys-logo ul {
+    display: block !important;
+  }
+  footer .wrapper {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  footer .wrapper .footer-links {
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  footer .wrapper .footer-links div {
+    align-items: center;
+  }
+}/*# sourceMappingURL=main.css.map */
